@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<!--
+        Name: Yudi Ma, Anne Ngoc Pham
+        Date:2023-10-05
+    -->
+<head>
+    <meta charset="UTF-8">
+ 
+  
+    <title>OnlineShop - Commande</title>
+</head>
+
+<body>
+    
+    <nav>
+        <div>
+            <img src="./assets/img/logo.svg" alt="logo">
+        </div>
+
+            <div>
+                <ul>
+                    <li>
+                        <a href="Index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="produits.html">produits</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Conctact</a>
+                    </li>
+                    <li>
+                        <a href="Panier.html">Panier</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <main>
+        <h2>Commander</h2>
+        <br>
+        <h4>Contact</h4>
+
+        <div>
+            <form action="contact" method="post">
+                <label for="firstname">First name:</label><br>
+                <input type="text" id="firstname" name="firstname" placeholder="first name" required><br><br>
+
+                <label for="lastname">Last Name:</label><br>
+                <input type="text" id="lastname" name="lastname" placeholder="last name" required><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="text" name="email" id="email" placeholder="email"><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="text" name="phone" id="phone" placeholder="phone number" maxlength="10"><br><br>
+            </form>
+        </div>
+   
+        <h4>Paiement</h4>
+
+        <div>
+            <form action="Paiment" method="post">
+
+                <label for="creditcard">Numéro de carte de crédit</label><br>
+                <input type="text" id="creditcard" name="creditcard"  maxlength="16"><br><br>
+
+                <label for="creditcardexpiry">Date d'expiration</label><br>
+                <input type="text" id="creditcardexpiry" name="creditcardexpiry" maxlength="4" required><br><br>
+
+            </form>
+        </div>
+
+        <button>
+            <a href="Confirmation.html">Soumettre</a>
+        </button>  
+    </main>
+    
+<br> 
+<hr>
+
+    <footer>
+        <p> nom: Yudi Ma Immatricule: 20236724 </p>
+        <p> nom: Anne Ngoc Pham Immatricule: 20264775 </p>
+    </footer>
+
+</body>
+</html>
